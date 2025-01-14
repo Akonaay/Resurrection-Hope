@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 1rem;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+
+.mining-service ul{
+    list-style-type: circle;
+}
+
+.services span{
+    border: 2px solid yellow;
+    padding: 5px; 
+    font-weight: 700;   
+}
+
+.services .title-service{
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.area-box {
+    background-color: var(--bg-grey);
+    padding: 50px 40px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+    border: 1px solid yellow;;
+}
+
+
+/* .area-box:hover {
+    transition: .3s;
+    background: var(--primary-color);
+} */
+
+@media (max-width: 1080px) {
+    .area-box {
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width: 415px) {
+    .area-box {
+        padding: 40px 30px;
+    }
+}
+
+.w3l-footer-29-main a:hover{
+    color: grey !important;
+}
